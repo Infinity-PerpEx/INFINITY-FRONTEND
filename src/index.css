@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./assets/AeonikTRIAL-Bold.otf') format('otf'),
+         url('./assets/AeonikTRIAL-BoldItalic.otf') format('otf'),
+         url('./assets/AeonikTRIAL-Light.otf') format('otf'),
+         url('./assets/AeonikTRIAL-LightItalic.otf') format('otf'),
+         url('./assets/AeonikTRIAL-Regular.otf') format('otf'),
+         url('./assets/AeonikTRIAL-RegularItalic.otf') format('otf');
+    /* Add additional font formats if necessary */
+    /* Specify the correct path to the font files */
+  }
+
+  body {
+    font-family: 'CustomFont', sans-serif;
+  }
