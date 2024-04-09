@@ -26,7 +26,7 @@ const HowItWork = () => {
             </div>
             <div>
               <p className="pb-5 text-3xl">Sign up for the bot on Telegram</p>
-              <p className="text-lg">
+              <p className="text-base">
                 Get started by simply adding our bot on Telegram. It takes just
                 a few clicks to access powerful trading tools and resources.
               </p>

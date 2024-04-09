@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <Main className="grid grid-cols-2 px-20">
       <Logo />
-      <div className="flex justify-between items-center justify-center">
+      <div className=" justify-between items-center justify-center hidden lg:flex">
         <p className="font-bold text-lg">Home</p>
         <p className="font-bold text-lg">Features</p>
         <p className="font-bold text-lg">How it works</p>
