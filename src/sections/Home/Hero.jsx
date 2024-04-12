@@ -4,11 +4,8 @@ import heroimg from "../../assets/heroimg.png";
 
 const Hero = () => {
   return (
-    <Main className="flex lg:px-0 px-10">
-      <div
-        className="lg:mt-8 mt-2"
-        style={{ width: "813px", marginRight: "68px" }}
-      >
+    <Main className="flex lg:px-0 px-10 pb-10">
+      <div className="lg:mt-8 mt-2 lg:mr-16 mr-10" style={{ width: "813px" }}>
         <p className="tittle">
           Trade Smarter With <span>Infinity</span>
         </p>

@@ -41,6 +41,9 @@ const Main = styled.div`
   background: hsla(245, 73%, 3%, 0.3);
   color: white;
   width: 100%;
+  @media (max-width: 1000px) {
+    height: 100px;
+  }
 
   .dropdown {
     @media (max-width: 1000px) {
