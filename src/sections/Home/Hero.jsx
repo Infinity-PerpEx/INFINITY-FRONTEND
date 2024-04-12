@@ -4,7 +4,7 @@ import heroimg from "../../assets/heroimg.png";
 
 const Hero = () => {
   return (
-    <Main className="flex lg:px-0 px-10 pb-10">
+    <Main className="flex lg:px-10 px-10 pb-10">
       <div className="lg:mt-8 mt-2 lg:mr-16 mr-10" style={{ width: "813px" }}>
         <p className="tittle">
           Trade Smarter With <span>Infinity</span>
@@ -13,7 +13,7 @@ const Hero = () => {
           Revolutionize your trading experience with our intuitive Telegram bot.
           Stay ahead of the market trends and trade with confidence.
         </p>
-        <div className="flex lg:flex-row flex-col">
+        <div className="flex md:flex-row flex-col">
           <button className="btn1">Get Started</button>
           <button className="btn2">Learn More</button>
         </div>
