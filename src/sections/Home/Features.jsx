@@ -4,7 +4,7 @@ import pc from "../../assets/pc.png";
 
 const Features = () => {
   return (
-    <Main className="px-16">
+    <Main className="lg:px-16 px-5">
       <div>
         <p className="pt-16 text-center font-bold text">Features</p>
         <div className="grid lg:grid-cols-3 place-items-center grid-cols-1">
@@ -22,7 +22,7 @@ const Features = () => {
             </div>
           ))}
         </div>
-        <div className="grid lg:grid-cols-2 grid-cols-1 place-items-center lg:px-56 px-0">
+        <div className="grid lg:grid-cols-2 grid-cols-1 place-items-center lg:px-56">
           {[1, 2].map((data) => (
             <div className="box flex flex-col items-center px-8 py-11 mb-14">
               <div className="p-3 bg-white img_box">
@@ -60,9 +60,17 @@ const Main = styled.div`
   .text {
     font-size: 43.31px;
     padding-bottom: 99px;
+
+    @media (max-width: 768px) {
+      padding-bottom: 60px;
+      font-size: 20px;
+    }
   }
   .box {
     width: 393px;
     text-align: center;
+    @media (max-width: 768px) {
+      width: auto;
+    }
   }
 `;

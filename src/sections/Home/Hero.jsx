@@ -6,17 +6,17 @@ const Hero = () => {
   return (
     <Main className="flex lg:px-0 px-10">
       <div
-        className=""
-        style={{ width: "813px", marginRight: "68px", marginTop: "31px" }}
+        className="lg:mt-8 mt-2"
+        style={{ width: "813px", marginRight: "68px" }}
       >
         <p className="tittle">
           Trade Smarter With <span>Infinity</span>
         </p>
-        <p className="text-2xl font-normal py-7">
+        <p className="lg:text-2xl text-lg font-normal py-7">
           Revolutionize your trading experience with our intuitive Telegram bot.
           Stay ahead of the market trends and trade with confidence.
         </p>
-        <div>
+        <div className="flex lg:flex-row flex-col">
           <button className="btn1">Get Started</button>
           <button className="btn2">Learn More</button>
         </div>
@@ -34,10 +34,16 @@ const Main = styled.div`
   color: white;
   justify-content: center;
   margin-top: 174px;
+
+  @media (max-width: 768px) {
+    margin-top: 30px;
+  }
   .tittle {
     font-size: 63.71px;
     font-weight: 700;
-
+    @media (max-width: 768px) {
+      font-size: 33.71px;
+    }
     span {
       color: hsla(223, 88%, 56%, 1);
     }
@@ -54,6 +60,12 @@ const Main = styled.div`
     font-weight: 700;
     font-size: 18px;
     margin-right: 33px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      padding: 10px 20px;
+      margin-bottom: 10px;
+    }
   }
   .btn2 {
     padding: 20px 50px;
@@ -61,5 +73,9 @@ const Main = styled.div`
     font-weight: 700;
     font-size: 18px;
     border: 1px solid white;
+
+    @media (max-width: 768px) {
+      padding: 10px 20px;
+    }
   }
 `;
