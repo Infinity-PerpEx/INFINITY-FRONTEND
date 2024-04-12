@@ -13,10 +13,12 @@ const Navbar = ({ show, setShow }) => {
           !show ? "hidden" : "flex"
         } lg:flex lg:relative`}
       >
-        <p className="font-bold text-lg lg:px-0 py-7">Home</p>
-        <p className="font-bold text-lg lg:px-0 py-7">Features</p>
-        <p className="font-bold text-lg lg:px-0 py-7">How it works</p>
-        <p className="font-bold text-lg lg:px-0 py-7">Twitter</p>
+        <p className="font-bold lg:text-lg text-2xl lg:px-0 py-7">Home</p>
+        <p className="font-bold lg:text-lg text-2xl lg:px-0 py-7">Features</p>
+        <p className="font-bold lg:text-lg text-2xl lg:px-0 py-7">
+          How it works
+        </p>
+        <p className="font-bold lg:text-lg text-2xl lg:px-0 py-7">Twitter</p>
         <button>Get Started</button>
       </div>
       <div
