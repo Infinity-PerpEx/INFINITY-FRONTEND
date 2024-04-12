@@ -6,23 +6,23 @@ import close from "../assets/close.svg";
 
 const Navbar = ({ show, setShow }) => {
   return (
-    <Main className={`grid grid-cols-2 lg:px-20 px-10`}>
+    <Main className={`ctn_c grid grid-cols-2 xl:px-20 px-10`}>
       <Logo />
       <div
-        className={`dropdown justify-center lg:justify-between items-center justify-center ${
+        className={`dropdown justify-center xl:justify-between items-center justify-center ${
           !show ? "hidden" : "flex"
-        } lg:flex lg:relative`}
+        } xl:flex xl:relative`}
       >
-        <p className="font-bold lg:text-lg text-2xl lg:px-0 py-7">Home</p>
-        <p className="font-bold lg:text-lg text-2xl lg:px-0 py-7">Features</p>
-        <p className="font-bold lg:text-lg text-2xl lg:px-0 py-7">
+        <p className="font-bold xl:text-xl text-2xl xl:px-0 py-7">Home</p>
+        <p className="font-bold xl:text-xl text-2xl xl:px-0 py-7">Features</p>
+        <p className="font-bold xl:text-xl text-2xl xl:px-0 py-7">
           How it works
         </p>
-        <p className="font-bold lg:text-lg text-2xl lg:px-0 py-7">Twitter</p>
+        <p className="font-bold xl:text-xl text-2xl xl:px-0 py-7">Twitter</p>
         <button>Get Started</button>
       </div>
       <div
-        className="flex lg:hidden flex justify-end cursor-pointer"
+        className="flex xl:hidden flex justify-end cursor-pointer"
         onClick={() => setShow((e) => !e)}
       >
         <img
@@ -43,12 +43,18 @@ const Main = styled.div`
   background: hsla(245, 73%, 3%, 0.3);
   color: white;
   width: 100%;
+
+  .ctn_c {
+    @media (max-width: 1200px) {
+      /* grid-template-columns: auto 1fr; */
+    }
+  }
   @media (max-width: 1000px) {
     height: 100px;
   }
 
   .dropdown {
-    @media (max-width: 1000px) {
+    @media (max-width: 1280px) {
       position: fixed;
       top: 0;
       left: 0;
