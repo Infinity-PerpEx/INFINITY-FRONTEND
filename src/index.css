@@ -15,6 +15,6 @@
     /* Specify the correct path to the font files */
   }
 
-  body {
+  .body {
     font-family: 'CustomFont', sans-serif;
   }

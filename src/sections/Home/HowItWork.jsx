@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import useMediaQuery from "../hooks/useMediaQuery";
+import useMediaQuery from "../../hooks/useMediaQuery";
 
 const HowItWork = () => {
   const isIPad = window.innerWidth;

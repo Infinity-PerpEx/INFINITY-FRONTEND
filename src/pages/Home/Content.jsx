@@ -4,20 +4,19 @@ import styled from "styled-components";
 import bg from "../../assets/bg.png";
 import Hero from "../../sections/Home/Hero";
 import Features from "../../sections/Home/Features";
-import HowItWork from "../../sections/HowItWork";
+import HowItWork from "../../sections/Home/HowItWork";
 import Footer from "../../components/Footer";
+import NavFooter from "../../components/NavFooter";
 
 const Content = () => {
   return (
     <Main>
       <img src={bg} alt="" srcset="" className="bg" />
-      <div style={{ height: "100vh" }}>
-        <Navbar />
+      <NavFooter>
         <Hero />
-      </div>
-      <Features />
-      <HowItWork />
-      <Footer />
+        <Features />
+        <HowItWork />
+      </NavFooter>
     </Main>
   );
 };

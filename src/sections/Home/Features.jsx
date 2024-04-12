@@ -4,7 +4,7 @@ import pc from "../../assets/pc.png";
 
 const Features = () => {
   return (
-    <Main className="lg:px-16 px-5">
+    <Main className="lg:px-16 px-7">
       <div>
         <p className="pt-16 text-center font-bold text">Features</p>
         <div className="grid lg:grid-cols-3 place-items-center grid-cols-1">
