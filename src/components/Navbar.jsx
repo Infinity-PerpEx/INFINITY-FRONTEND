@@ -6,7 +6,7 @@ import close from "../assets/close.svg";
 
 const Navbar = ({ show, setShow }) => {
   return (
-    <Main className={`ctn_c grid grid-cols-2 xl:px-20 px-10`}>
+    <Main className={`ctn_ grid grid-cols-2 xl:px-20 px-10`}>
       <Logo />
       <div
         className={`dropdown justify-center xl:justify-between items-center justify-center ${
@@ -44,7 +44,7 @@ const Main = styled.div`
   color: white;
   width: 100%;
 
-  .ctn_c {
+  .ctn_ {
     @media (max-width: 1200px) {
       /* grid-template-columns: auto 1fr; */
     }
