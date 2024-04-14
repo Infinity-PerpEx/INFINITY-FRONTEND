@@ -8,7 +8,7 @@ const NavFooter = (props) => {
   return (
     <div>
       <Navbar show={show} setShow={setShow} />
-      <div className={`${show && "hidden"}`}>{props.children}</div>
+      <div className={`${show && "hidden"} `}>{props.children}</div>
       <Footer />
     </div>
   );

@@ -6,7 +6,7 @@ const Logo = () => {
     <>
       <div className="flex items-center">
         <img src={logo} alt="logo" className="w-5 h-5 lg:w-auto lg:h-auto" />
-        <p className="lg:text-3xl text-xl pl-2.5">Infinity</p>
+        <p className="lg:text-2xl text-xl pl-2.5">Infinity</p>
       </div>
     </>
   );

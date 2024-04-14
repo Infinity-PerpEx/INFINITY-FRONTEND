@@ -4,12 +4,12 @@ import pc from "../../assets/pc.png";
 
 const Features = () => {
   return (
-    <Main className="lg:px-16 px-7">
-      <div>
+    <Main className="lg:px-16 px-7 ">
+      <div className="max-w-screen-lg mx-auto ">
         <p className="pt-16 text-center font-bold text">Features</p>
         <div className="grid lg:grid-cols-3 place-items-center grid-cols-1">
           {[1, 2, 3].map((data) => (
-            <div className="box flex flex-col items-center px-8 py-11 mb-14 ">
+            <div className="box flex flex-col items-center px-8 py-11 mb-14 m-8">
               <div className="p-3 bg-white img_box">
                 <img src={pc} alt="" className="w-5 " />
               </div>
@@ -22,9 +22,9 @@ const Features = () => {
             </div>
           ))}
         </div>
-        <div className="grid lg:grid-cols-2 grid-cols-1 place-items-center lg:px-56">
+        <div className="grid lg:grid-cols-2 grid-cols-1 place-items-center lg:px-32">
           {[1, 2].map((data) => (
-            <div className="box flex flex-col items-center px-8 py-11 mb-14">
+            <div className="box flex flex-col items-center px-8 py-11 mb-14 m-8">
               <div className="p-3 bg-white img_box">
                 <img src={pc} alt="" className="w-5 " />
               </div>
@@ -45,7 +45,7 @@ const Features = () => {
 export default Features;
 
 const Main = styled.div`
-  background: hsla(250, 75%, 3%, 1);
+  
   color: white;
 
   .box {
@@ -67,7 +67,7 @@ const Main = styled.div`
     }
   }
   .box {
-    width: 393px;
+    width: 300px;
     text-align: center;
     @media (max-width: 768px) {
       width: auto;

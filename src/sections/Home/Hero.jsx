@@ -4,7 +4,7 @@ import heroimg from "../../assets/heroimg.png";
 
 const Hero = () => {
   return (
-    <Main className="flex lg:px-10 px-10 pb-10">
+    <Main className="flex lg:px-10 px-10 pb-10 max-w-screen-lg mx-auto">
       <div className="lg:mt-8 mt-2 lg:mr-16 mr-10" style={{ width: "813px" }}>
         <p className="tittle">
           Trade Smarter With <span>Infinity</span>
@@ -36,7 +36,7 @@ const Main = styled.div`
     margin-top: 30px;
   }
   .tittle {
-    font-size: 63.71px;
+    font-size: 55px;
     font-weight: 700;
     @media (max-width: 768px) {
       font-size: 33.71px;

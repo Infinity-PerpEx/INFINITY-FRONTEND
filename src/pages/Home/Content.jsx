@@ -14,8 +14,10 @@ const Content = () => {
       <img src={bg} alt="" srcset="" className="bg" />
       <NavFooter>
         <Hero />
+        <div className="gradient-bg-welcome">        
         <Features />
         <HowItWork />
+        </div>
       </NavFooter>
     </Main>
   );

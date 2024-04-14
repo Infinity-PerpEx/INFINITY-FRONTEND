@@ -9,7 +9,7 @@ const Navbar = ({ show, setShow }) => {
     <Main className={`ctn_ grid grid-cols-2 xl:px-20 px-10`}>
       <Logo />
       <div
-        className={`dropdown justify-center xl:justify-between items-center justify-center ${
+        className={`dropdown xl:justify-between items-center justify-center ${
           !show ? "hidden" : "flex"
         } xl:flex xl:relative`}
       >
@@ -22,7 +22,7 @@ const Navbar = ({ show, setShow }) => {
         <button>Get Started</button>
       </div>
       <div
-        className="flex xl:hidden flex justify-end cursor-pointer"
+        className="xl:hidden flex justify-end cursor-pointer"
         onClick={() => setShow((e) => !e)}
       >
         <img
