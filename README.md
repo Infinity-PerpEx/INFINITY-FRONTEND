@@ -8,6 +8,8 @@ Welcome to the Infinity Telegram Bot Website documentation! This website showcas
 
 Check out the live website [here](https://infinity-xi-seven.vercel.app/).
 
+Test out Infinity Trading Bot [here](http://t.me/infinityperpbot/).
+
 ## About
 
 Revolutionize your trading experience with our intuitive Telegram bot. Stay ahead of the market trends and trade with confidence.
