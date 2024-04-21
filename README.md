@@ -4,7 +4,7 @@ Welcome to the Telegram Bot Website documentation! This website showcases the Te
 
 ## Website Preview
 
-![Website Preview](<img src="https://i.ibb.co/J5GHBwb/Desktop-1.png" alt="Desktop-1" border="0" />)
+![Website Preview](<a><img src="https://i.ibb.co/J5GHBwb/Desktop-1.png" alt="Desktop-1" border="0" /></a>)
 
 Check out the live website [here](https://infinity-xi-seven.vercel.app/).
 
@@ -38,17 +38,3 @@ We welcome contributions to improve this project! Feel free to open an issue or 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-this is the part for ## How It Works, edit the github readme above witht the below
-
-Sign up for the bot on Telegram
-Get started by simply adding our bot on Telegram. It takes just a few clicks to access powerful trading tools and resources.
-
-Connect your exchange account
-Link your exchange account securely to our bot. We prioritize user privacy and data protection to ensure a seamless integration process.
-
-Set up preferences and parameters
-Customize your trading experience according to your preferences and risk tolerance. Adjust parameters such as trade size, frequency, and asset selection effortlessly
-
-Receive signals/alerts and execute trades
-Stay informed with real-time signals and alerts delivered directly to your Telegram account. Execute trades swiftly and efficiently with our intuitive trading platform.
