@@ -1,12 +1,16 @@
-# Telegram Bot Website
+# Telegram Bot Website ( Trade Smarter With Infinity )
 
-Welcome to the Telegram Bot Website documentation! This website showcases the Telegram bot we created for a hackathon. It provides information about the bot's features, how it works, and more.
+Welcome to the Infinity Telegram Bot Website documentation! This website showcases the Telegram bot functionalities. It provides information about the bot's features, how it works, and more.
 
 ## Website Preview
 
 <a><img src="https://i.ibb.co/J5GHBwb/Desktop-1.png" alt="Desktop-1" border="0" /></a>
 
 Check out the live website [here](https://infinity-xi-seven.vercel.app/).
+
+## About
+
+Revolutionize your trading experience with our intuitive Telegram bot. Stay ahead of the market trends and trade with confidence.
 
 ## Features
 
