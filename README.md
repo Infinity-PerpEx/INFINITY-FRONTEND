@@ -4,7 +4,7 @@ Welcome to the Telegram Bot Website documentation! This website showcases the Te
 
 ## Website Preview
 
-![Website Preview](https://ibb.co/pJMd0Bs)
+![Website Preview](<img src="https://i.ibb.co/J5GHBwb/Desktop-1.png" alt="Desktop-1" border="0" />)
 
 Check out the live website [here](https://infinity-xi-seven.vercel.app/).
 
